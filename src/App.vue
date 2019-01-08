@@ -3,10 +3,10 @@
     <div class="navbar-custom">
       <div class="container">
         <div class="columns">
-          <div class="column is-4">
+          <div class="column is-4 has-text-centered">
             <span class="title">Vue.js for beginners</span>
           </div>
-          <div class="column is-8 text-center">
+          <div class="column is-8 has-text-centered">
             <div class="links">
               <router-link to="/">Home</router-link>
               <router-link to="/features">Features</router-link>
@@ -17,7 +17,26 @@
         </div>
       </div>
     </div>
+
     <router-view/>
+
+    <div class="footer is-primary">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-6">
+            <span>An example of web app made with Vue.js</span>
+          </div>
+          <div class="column is-6">
+            <a class="icon">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a class="icon">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -36,28 +55,34 @@ body {
   font-family: "Montserrat";
 }
 
-.text-center {
-  text-align: center !important;
-}
-
 .navbar-custom {
   background: #383838;
-  color: #fff;
+  color: grey;
   padding: 20px;
 
   span.title {
     font-weight: bold;
-    color: #fff;
+    color: grey;
     font-size: 25px;
   }
 
   .links a {
     margin-right: 40px;
-    color: #fff;
+    color: grey;
   }
 
   a.router-link-exact-active.router-link-active {
     text-decoration: underline;
+  }
+}
+
+.footer {
+  background: #383838;
+  color: grey;
+
+  .icon {
+    color: #fff;
+    margin-left: 20px;
   }
 }
 </style>
