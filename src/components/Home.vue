@@ -21,9 +21,9 @@
           <div class="column is-4 has-text-centered">
             <h1 class="title">Lorem ipsum</h1>
           </div>
-          <div
-            class="column is-7 has-text-left"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus, quaerat ut culpa quidem illo ab eaque praesentium, placeat perferendis ea aliquid explicabo nemo, aspernatur sit laborum hic nesciunt laudantium.</div>
+          <div class="column is-7 has-text-left" >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatibus, quaerat ut culpa quidem illo ab eaque praesentium, placeat perferendis ea aliquid explicabo nemo, aspernatur sit laborum hic nesciunt laudantium.
+          </div>
         </div>
       </div>
 
@@ -31,9 +31,7 @@
         <div class="column" v-for="(index) in cards" :key="index">
           <div class="card">
             <div class="card-content">
-              <p
-                class="title"
-              >“There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”</p>
+              <p class="title">“There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”</p>
               <p class="subtitle">Jeff Atwood</p>
             </div>
           </div>
