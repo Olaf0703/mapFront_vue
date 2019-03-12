@@ -1,5 +1,12 @@
 # vuejs-beginner
 
+<p align="center">
+<img src="https://travis-ci.org/dj0nny/vuejs-beginner.svg?branch=develop" />
+
+<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
+</p>
+
+
 > VueJS for dummies
 
 <p align="center">
