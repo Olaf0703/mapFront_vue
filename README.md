@@ -1,11 +1,9 @@
 # vuejs-beginner
 
-<p align="center">
-<img src="https://travis-ci.org/dj0nny/vuejs-beginner.svg?branch=develop" />
-
-<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" />
-</p>
-
+[![Build Status](https://travis-ci.org/dj0nny/vuejs-beginner.svg?branch=develop)](https://travis-ci.org/dj0nny/vuejs-beginner)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c1f70c2-4957-4794-b8d4-e9efe0ceee6f/deploy-status)](https://app.netlify.com/sites/tender-yalow-25bbea/deploys)
+[![npm version](https://badge.fury.io/js/vue.svg)](https://badge.fury.io/js/vue)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 > VueJS for dummies
 
