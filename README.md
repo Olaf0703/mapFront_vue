@@ -1,4 +1,4 @@
-# vuejs-beginner
+# vuejs-beginner ✌
 
 > VueJS for dummies
 
