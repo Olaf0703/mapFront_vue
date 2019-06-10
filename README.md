@@ -14,6 +14,14 @@
 
 A simple project for showing the foundamentals of [Vue.js](https://vuejs.org/)
 
+## OverVue  [![start](https://img.shields.io/badge/start%20with-OverVue-brightgreen.svg)](https://img.shields.io/badge/start%20with-OverVue-brightgreen.svg)
+
+**Vue** is a Javascript framework developed by Evan You in 2014. Year after year, the Vue.js community grow and it became one of the most used Javascript framework. 
+
+Having used **React** for a long time, I decided that it was time to try something else. My choice falls on Vue.js, as it was a framework I didn't know yet (unlike **Angular**), in a short time I fell in love and supplanted my choice to use React within my projects.
+
+After several months of use, I decided to pick up again this repository (which I created in January 2019) to complete it and add further examples.
+
 ## Getting Started
 
 This project was generate using the official [Vue CLI](https://cli.vuejs.org)
