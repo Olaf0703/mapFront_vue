@@ -1,7 +1,5 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './components/Home';
-import Faq from './components/Faq';
 
 Vue.use(Router);
 
@@ -10,12 +8,12 @@ export default new Router({
 		{
 			path: '/',
 			name: 'Home',
-			component: Home
+			component: () => import('./views/Home.vue')
 		},
 		{
 			path: '/faq',
 			name: 'Faq',
-			component: Faq
+			component: () => import('./views/Faq.vue')
 		}
 	]
 });
