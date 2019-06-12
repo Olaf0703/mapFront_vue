@@ -8,7 +8,7 @@
         <div class="column is-8 has-text-centered">
           <div class="links">
             <router-link to="/">Home</router-link>
-            <router-link to="/features">Features</router-link>
+            <router-link to="/contact">Contact</router-link>
             <router-link to="/about">About</router-link>
             <router-link to="/faq">FAQ</router-link>
           </div>
