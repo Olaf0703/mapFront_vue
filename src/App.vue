@@ -22,7 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bulma/bulma.sass";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 body {
