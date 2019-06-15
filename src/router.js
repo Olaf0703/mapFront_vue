@@ -19,6 +19,11 @@ export default new Router({
 			path: '/faq',
 			name: 'Faq',
 			component: () => import('./views/Faq.vue')
+		},
+		{
+			path: '/about',
+			name: 'About',
+			component: () => import('./views/About.vue')
 		}
 	]
 });
